@@ -7,58 +7,79 @@
 // custom settings, run `zed: open default settings` from the
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
-  "colorize_brackets": true,
-  "format_on_save": "on",
-  "vim_mode": true,
-  "window_decorations": "server",
-  "agent_buffer_font_size": 16.0,
-  "server_url": "https://zed.dev",
-  "proxy": "",
-  "minimap": {
-    "show": "never",
-  },
-  "cli_default_open_behavior": "existing_window",
-  "git_panel": {
-    "tree_view": true,
-  },
-  "disable_ai": true,
-  "icon_theme": "Material Icon Theme",
-  "title_bar": {
-    "show_sign_in": false,
-    "show_menus": true,
-    "show_branch_status_icon": false,
-  },
-  "project_panel": {
-    "dock": "left",
-  },
-  "agent": {
-    "sidebar_side": "left",
-    "favorite_models": [],
-    "model_parameters": [],
-  },
-  "terminal": {
-    "font_size": 15.0,
-    "cursor_shape": "block",
-    "blinking": "on",
-  },
-  "git": {
-    "inline_blame": {
-      "enabled": true,
-    },
-  },
-  "base_keymap": "VSCode",
-  "cursor_blink": true,
-  "buffer_font_fallbacks": ["Fira Code", "Courier New"],
-  "buffer_font_family": "JetBrains Mono",
-  "linked_edits": true,
-  "ui_font_size": 16.0,
-  "buffer_font_size": 14.0,
-  "theme": {
-    "mode": "system",
-    "light": "One Light",
-    "dark": "One Dark",
-  },
-  "buffer_font_features": {
-    "calt": false,
-  },
+	"colorize_brackets": true,
+	"format_on_save": "on",
+	"vim_mode": true,
+	"window_decorations": "server",
+	"agent_buffer_font_size": 16.0,
+	"server_url": "https://zed.dev",
+	"proxy": "",
+	"minimap": {
+		"show": "never"
+	},
+	"cli_default_open_behavior": "existing_window",
+	"git_panel": {
+		"tree_view": true
+	},
+	"disable_ai": true,
+	"icon_theme": "Material Icon Theme",
+	"title_bar": {
+		"show_sign_in": false,
+		"show_menus": true,
+		"show_branch_status_icon": false
+	},
+	"project_panel": {
+		"dock": "left"
+	},
+	"agent": {
+		"sidebar_side": "left",
+		"favorite_models": [],
+		"model_parameters": []
+	},
+	"terminal": {
+		"font_size": 15.0,
+		"cursor_shape": "block",
+		"blinking": "on"
+	},
+	"git": {
+		"inline_blame": {
+			"enabled": true
+		}
+	},
+	"base_keymap": "VSCode",
+	"cursor_blink": true,
+	"buffer_font_fallbacks": ["Fira Code", "Courier New"],
+	"buffer_font_family": "JetBrains Mono",
+	"linked_edits": true,
+	"ui_font_size": 16.0,
+	"buffer_font_size": 14.0,
+	"theme": {
+		"mode": "system",
+		"light": "One Light",
+		"dark": "One Dark"
+	},
+	"buffer_font_features": {
+		"calt": false
+	},
+	"lsp": {
+		"biome": {
+			"settings": {
+				"require_config_file": true
+			}
+		}
+	},
+	"languages": {
+		"Astro": { "formatter": { "language_server": { "name": "biome" } } },
+		"CSS": { "formatter": { "language_server": { "name": "biome" } } },
+		"GraphQL": { "formatter": { "language_server": { "name": "biome" } } },
+		"HTML": { "formatter": { "language_server": { "name": "biome" } } },
+		"JSON": { "formatter": { "language_server": { "name": "biome" } } },
+		"JSONC": { "formatter": { "language_server": { "name": "biome" } } },
+		"JSX": { "formatter": { "language_server": { "name": "biome" } } },
+		"JavaScript": { "formatter": { "language_server": { "name": "biome" } } },
+		"Svelte": { "formatter": { "language_server": { "name": "biome" } } },
+		"TSX": { "formatter": { "language_server": { "name": "biome" } } },
+		"TypeScript": { "formatter": { "language_server": { "name": "biome" } } },
+		"Vue.js": { "formatter": { "language_server": { "name": "biome" } } }
+	}
 }
