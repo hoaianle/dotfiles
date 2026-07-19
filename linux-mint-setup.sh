@@ -77,11 +77,11 @@ cp $SCRIPT_DIR/git/.gitconfig ~
 
 # Restore nvim config
 mkdir -p ~/.config/nvim
-cp $SCRIPT_DIR/nvim/* ~/.config/nvim
+cp -r $SCRIPT_DIR/nvim/* ~/.config/nvim
 
 # Restore tmux config
 mkdir -p ~/.config/tmux
-cp $SCRIPT_DIR/tmux/tmux.conf ~/.config/tmux
+cp -r $SCRIPT_DIR/tmux/* ~/.config/tmux
 
 # Restore alacritty config
 mkdir -p ~/.config/alacritty
