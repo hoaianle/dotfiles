@@ -29,8 +29,7 @@ sudo apt install -y neovim \
     tree \
     jq \
     bat \
-    alacritty \
-    xdotool \
+    alacritty \ xdotool \
     tmux \
     ripgrep \
     ffmpeg
@@ -82,6 +81,10 @@ cp -r $SCRIPT_DIR/nvim/* ~/.config/nvim
 # Restore tmux config
 mkdir -p ~/.config/tmux
 cp -r $SCRIPT_DIR/tmux/* ~/.config/tmux
+
+# Restore zed config
+mkdir -p ~/.config/zed
+cp -r $SCRIPT_DIR/zed/* ~/.config/zed
 
 # Restore alacritty config
 mkdir -p ~/.config/alacritty
