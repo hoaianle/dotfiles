@@ -90,6 +90,13 @@ cp -r $SCRIPT_DIR/zed/* ~/.config/zed
 mkdir -p ~/.config/alacritty
 cp -r $SCRIPT_DIR/alacritty/* ~/.config/alacritty
 
+# Restore go config
+if command -v go >/dev/null 2>&1; then
+    go env -w GOPATH="$HOME/.go"
+else
+    echo "Go is not installed."
+fi
+
 # Temporarily fix alacritty auto focus
 mkdir -p ~/.local/bin
 cp $SCRIPT_DIR/shared/launch-alacritty.sh ~/.local/bin/
