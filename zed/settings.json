@@ -16,7 +16,7 @@
   "format_on_save": "on",
   "vim_mode": true,
   "window_decorations": "server",
-  "agent_buffer_font_size": 13.0,
+  "agent_buffer_font_size": 14.0,
   "server_url": "https://zed.dev",
   "proxy": "",
   "minimap": {
@@ -43,7 +43,7 @@
     "model_parameters": [],
   },
   "terminal": {
-    "font_size": 13.0,
+    "font_size": 15.0,
     "cursor_shape": "block",
     "blinking": "on",
   },
@@ -57,8 +57,8 @@
   "buffer_font_fallbacks": ["Fira Code", "Courier New"],
   "buffer_font_family": "JetBrains Mono",
   "linked_edits": true,
-  "ui_font_size": 14.0,
-  "buffer_font_size": 13.0,
+  "ui_font_size": 16.0,
+  "buffer_font_size": 14.0,
   "theme": {
     "mode": "system",
     "light": "One Light",
