@@ -8,6 +8,7 @@ XCURSOR_SIZE = "48"
 
 [window]
 decorations = "Full"
+startup_mode = "Maximized"
 opacity = 1
 blur = false
 
