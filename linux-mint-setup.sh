@@ -29,7 +29,10 @@ sudo apt install -y neovim \
     tree \
     jq \
     bat \
-    alacritty \ xdotool \
+    alacritty \
+    xdotool \
+    fcitx5 \
+    fcitx5-unikey \
     tmux \
     ripgrep \
     ffmpeg
