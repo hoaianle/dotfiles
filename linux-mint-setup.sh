@@ -33,6 +33,7 @@ sudo apt install -y neovim \
     xdotool \
     fcitx5 \
     fcitx5-unikey \
+    wrk \
     tmux \
     ripgrep \
     ffmpeg
