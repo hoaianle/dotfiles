@@ -58,9 +58,7 @@ flatpak install flathub -y org.localsend.localsend_app
 
 # Fix flatpak mouse inconsistent
 mkdir -p ~/.local/share/icons/default
-printf '[Icon Theme]
-Name=Bibata-Modern-Classic
-Inherits=Bibata-Modern-Classic' > ~/.local/share/icons/default/index.theme
+cp /etc/alternatives/x-cursor-theme ~/.local/share/icons/default/index.theme
 
 # cinnamon_cursor_size * display_scale, should set in flatseal
 # flatpak override --env=XCURSOR_SIZE=48
