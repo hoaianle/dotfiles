@@ -2,11 +2,8 @@
 
 SCRIPT_DIR=$( cd -- "$( dirname -- "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )
 
-# This script not cover external packages like VsCode, Docker, etc.
+# This script not cover external packages like Zed, Docker, etc.
 # Some thing should be config after run this script for some reasons.
-
-# fcitx not remember font size, here is how to fix:
-# Fictx Configuration > Global Config > Show Advandced Options > Program > Seconds sleep before fcitx really start
 
 # ! Remmeber to disable automatic screen rotation, otherwise OBS will lag so much
 
