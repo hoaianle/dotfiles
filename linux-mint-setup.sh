@@ -52,6 +52,7 @@ flatpak install flathub -y com.github.wwmm.easyeffects
 flatpak install flathub -y com.usebruno.Bruno
 flatpak install flathub -y md.obsidian.Obsidian
 flatpak install flathub -y org.localsend.localsend_app
+flatpak install flathub -y org.kde.drawy
 
 # Fix flatpak mouse inconsistent
 mkdir -p ~/.local/share/icons/default
