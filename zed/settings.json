@@ -21,11 +21,11 @@
   "server_url": "https://zed.dev",
   "proxy": "",
   "minimap": {
-    "show": "never",
+    "show": "auto",
   },
   "cli_default_open_behavior": "existing_window",
   "git_panel": {
-    "dock": "left",
+    "dock": "right",
     "tree_view": true,
   },
   "disable_ai": true,
