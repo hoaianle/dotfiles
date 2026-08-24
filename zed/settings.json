@@ -25,8 +25,9 @@
   },
   "cli_default_open_behavior": "existing_window",
   "git_panel": {
-    "dock": "right",
+    "dock": "left",
     "tree_view": true,
+    "default_width": 320,
   },
   "disable_ai": true,
   "icon_theme": "Material Icon Theme",
@@ -37,6 +38,7 @@
   },
   "project_panel": {
     "dock": "left",
+    "default_width": 320,
   },
   "agent": {
     "sidebar_side": "left",
