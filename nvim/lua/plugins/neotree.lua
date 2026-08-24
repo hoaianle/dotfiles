@@ -20,6 +20,14 @@ return {
                 position = "left",
             },
 
+            filesystem = {
+                filtered_items = {
+                    visible = true, -- This makes hidden files visible by default
+                    hide_dotfiles = false,
+                    hide_gitignored = false,
+                },
+            },
+
             default_component_configs = {
                 icon = {
                     enabled = false,
