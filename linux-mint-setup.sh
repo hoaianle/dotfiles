@@ -80,8 +80,7 @@ ln -s $SCRIPT_DIR/nvim ~/.config/nvim
 ln -s "$SCRIPT_DIR/tmux" ~/.config/tmux
 
 # Restore zed config
-mkdir -p ~/.config/zed
-cp -r $SCRIPT_DIR/zed/* ~/.config/zed
+ln -s $SCRIPT_DIR/zed ~/.config/zed
 
 # Restore alacritty config
 ln -s $SCRIPT_DIR/alacritty ~/.config/alacritty
