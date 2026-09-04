@@ -74,20 +74,17 @@ cp $SCRIPT_DIR/bash/.bash_aliases ~
 cp $SCRIPT_DIR/git/.gitconfig ~
 
 # Restore nvim config
-mkdir -p ~/.config/nvim
-cp -r $SCRIPT_DIR/nvim/* ~/.config/nvim
+ln -s $SCRIPT_DIR/nvim ~/.config/nvim
 
 # Restore tmux config
-mkdir -p ~/.config/tmux
-cp -r $SCRIPT_DIR/tmux/* ~/.config/tmux
+ln -s "$SCRIPT_DIR/tmux" ~/.config/tmux
 
 # Restore zed config
 mkdir -p ~/.config/zed
 cp -r $SCRIPT_DIR/zed/* ~/.config/zed
 
 # Restore alacritty config
-mkdir -p ~/.config/alacritty
-cp -r $SCRIPT_DIR/alacritty/* ~/.config/alacritty
+ln -s $SCRIPT_DIR/alacritty ~/.config/alacritty
 
 # Restore go config
 if command -v go >/dev/null 2>&1; then
