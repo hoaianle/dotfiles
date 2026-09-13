@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-SESSION_NAME="hoaian"
+SESSION_NAME="$(whoami)"
 
 tmux has-session -t $SESSION_NAME >/dev/null
 
