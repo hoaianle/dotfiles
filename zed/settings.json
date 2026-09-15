@@ -33,7 +33,7 @@
     "default_width": 320,
   },
   "disable_ai": true,
-  "icon_theme": "Material Icon Theme",
+  "icon_theme": "Zed (Default)",
   "title_bar": {
     "show_sign_in": false,
     "show_menus": true,
