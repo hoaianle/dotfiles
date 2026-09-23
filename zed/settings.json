@@ -7,6 +7,9 @@
 // custom settings, run `zed: open default settings` from the
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
+  "cursor_animation": {
+    "enabled": false
+  },
   "search": {
     "search_on_type": false,
   },
@@ -16,7 +19,7 @@
     "metrics": false,
     "anthropic_retention": false,
   },
-  "colorize_brackets": true,
+  "colorize_brackets": false,
   "format_on_save": "on",
   "vim_mode": true,
   "window_decorations": "server",
