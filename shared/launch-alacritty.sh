@@ -6,11 +6,10 @@
 # This script is the peace treaty until someone fixes the upstream bug.
 
 alacritty &
-ALAC_PID=$!
+pid=$!
 
-# Wait until a visible window for this PID exists
-WINDOW_ID=$(xdotool search --sync --pid "$ALAC_PID" | head -n 1)
+while ! window_id=$(xdotool search --pid "$pid" 2>/dev/null); do
+    :
+done
 
-# sleep 0.0
-
-wmctrl -i -R "$WINDOW_ID"
+wmctrl -i -R "${window_id%%$'\n'*}"
