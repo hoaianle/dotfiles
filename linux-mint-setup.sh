@@ -99,6 +99,3 @@ sed -i "s|^Exec=alacritty|Exec=bash -c ~/.local/bin/launch-alacritty.sh|g" ~/.lo
 sed -i "s|^StartupNotify=true|StartupNotify=false|g" ~/.local/share/applications/Alacritty.desktop
 
 cp $SCRIPT_DIR/shared/hoaian.sh ~/.local/bin/
-
-# Allow cron to set powerprofile
-sudo cp $SCRIPT_DIR/shared/etc/polkit-1/rules.d/50-power-profiles.rules /etc/polkit-1/rules.d/50-power-profiles.rules
