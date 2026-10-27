@@ -47,7 +47,9 @@
     "default_width": 320,
   },
   "agent": {
-    "sidebar_side": "left",
+    "threads_sidebar": {
+      "position": "left"
+    },
     "favorite_models": [],
     "model_parameters": [],
   },
