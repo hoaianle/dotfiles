@@ -1,6 +1,3 @@
-import = [
-    "~/.config/alacritty/themes/one-dark.toml"
-]
 
 [env]
 TERM = "xterm-256color"
@@ -41,3 +38,8 @@ style = "Bold Italic"
 
 [selection]
 save_to_clipboard = false
+
+[general]
+import = [
+    "~/.config/alacritty/themes/one-dark.toml"
+]
