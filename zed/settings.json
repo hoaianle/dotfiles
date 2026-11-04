@@ -8,7 +8,7 @@
 // command palette (cmd-shift-p / ctrl-shift-p)
 {
   "cursor_animation": {
-    "enabled": false
+    "enabled": false,
   },
   "search": {
     "search_on_type": false,
@@ -48,7 +48,7 @@
   },
   "agent": {
     "threads_sidebar": {
-      "position": "left"
+      "position": "left",
     },
     "favorite_models": [],
     "model_parameters": [],
@@ -68,8 +68,8 @@
   "buffer_font_fallbacks": ["Fira Code", "Courier New"],
   "buffer_font_family": "JetBrains Mono",
   "linked_edits": true,
-  "ui_font_size": 15.0,
-  "buffer_font_size": 13.0,
+  "ui_font_size": 16.0,
+  "buffer_font_size": 14.0,
   "theme": {
     "mode": "system",
     "light": "One Light",
