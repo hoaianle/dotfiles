@@ -32,6 +32,7 @@ flatpak install flathub -y md.obsidian.Obsidian
 flatpak install flathub -y org.localsend.localsend_app
 flatpak install flathub -y org.audacityteam.Audacity
 flatpak install flathub -y io.dbeaver.DBeaverCommunity
+flatpak install flathub -y io.bassi.Amberol
 
 # Post install setup
 
