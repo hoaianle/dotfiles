@@ -1,6 +1,6 @@
 [user]
     name = Lê Hoài Ân
-	email = lehoaian022003@gmail.com
+    email = lehoaian022003@gmail.com
 [commit]
 	gpgsign = false
 [push]
