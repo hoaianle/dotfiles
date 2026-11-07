@@ -5,7 +5,8 @@ SCRIPT_DIR=$( cd -- "$( dirname -- "${BASH_SOURCE[0]}" )" &> /dev/null && pwd )
 # Fonts
 
 sudo dnf install -y fonts-jetbrains-mono \
-    rsms-inter-fonts
+    rsms-inter-fonts \
+    liberation-fonts
 
 # System tools
 sudo dnf install -y neovim \
