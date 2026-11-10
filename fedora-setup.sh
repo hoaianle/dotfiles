@@ -35,6 +35,7 @@ flatpak install flathub -y org.localsend.localsend_app
 flatpak install flathub -y org.audacityteam.Audacity
 flatpak install flathub -y io.dbeaver.DBeaverCommunity
 flatpak install flathub -y io.bassi.Amberol
+flatpak install flathub -y com.github.unrud.VideoDownloader
 
 # Post install setup
 
